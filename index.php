@@ -187,7 +187,7 @@ function formatSize( $bytes )
       		  <div class='prgtext'><?php echo $dp; ?>% Disk Used</div>
       		  <div class='prgbar'></div>
       		  <div class='prginfo'>
-                <span style='float: left;'><?php echo "$dp; Used - $df; Free - $dt Total"; ?></span>
+                <span style='float: left;'><?php echo "$du Used - $df Free - $dt Total"; ?></span>
                 <span style='clear: both;'></span>
         </div>
 </div>
