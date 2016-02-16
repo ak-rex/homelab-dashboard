@@ -222,28 +222,3 @@ _:-ms-input-placeholder, :root .demo-graph {
       -ms-flex-align: center;
           align-items: center;
 }
-.progress {
-        border: 2px solid #5E96E4;
-        height: 32px;
-        width: 100%;
-        margin: 30px auto;
-}
-.progress .prgbar {
-        background: #A7C6FF;
-        width: <?php echo $dp; ?>%;
-        position: relative;
-        height: 32px;
-        z-index: 999;
-}
-.progress .prgtext {
-        color: #286692;
-        text-align: center;
-        font-size: 13px;
-        padding: 9px 0 0;
-        width: 100%;
-        position: absolute;
-        z-index: 1000;
-}
-.progress .prginfo {
-        margin: 3px 0;
-}

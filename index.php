@@ -132,7 +132,7 @@ function formatSize( $bytes )
 }
 .progress .prgtext {
         color: #286692;
-        text-align: 50%;
+        text-align: center;
         font-size: 13px;
         padding: 9px 0 0;
         width: 100%;
