@@ -132,7 +132,7 @@ function formatSize( $bytes )
 }
 .progress .prgtext {
         color: #286692;
-        text-align: center;
+        text-align: 50%;
         font-size: 13px;
         padding: 9px 0 0;
         width: 100%;
@@ -206,8 +206,8 @@ function formatSize( $bytes )
                 <h2 class="mdl-card__title-text">Services</h2>
               </div>
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
-		 <div><span style='float: center;'>Storage Server</span></div>
-                 <span style='float: center;'>UnRaid: <?php echo GetServerStatus('google.com',80); ?></span>
+		 <div>Storage Server</div>
+                 <div>UnRaid: <?php echo GetServerStatus('google.com',80); ?></div>
 		 <div>Plex: <?php echo GetServerStatus('192.168.0.2',34200); ?></div>
 		 <div>PlexPy: <?php echo GetServerStatus('192.168.0.2',8181); ?></div>
 		 <div>SeedBox</div>
