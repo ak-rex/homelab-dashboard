@@ -231,7 +231,7 @@ _:-ms-input-placeholder, :root .demo-graph {
 .progress .prgbar {
         background: #A7C6FF;
         width: <?php echo $dp; ?>%;
-        position: relative;
+        position: center;
         height: 32px;
         z-index: 999;
 }
