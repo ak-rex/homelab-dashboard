@@ -198,6 +198,7 @@ function formatSize( $bytes )
         </div>
 	</div>
 </div>
+</div>
           </div>
           <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
             <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
