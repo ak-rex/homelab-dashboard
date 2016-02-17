@@ -225,6 +225,7 @@ function formatSize( $bytes )
 		 <div>Wireless AP: <?php echo GetServerStatus('192.168.0.100',80); ?></div>
 		 <div>Appliances</div>
                  <div>Printer: <?php echo GetServerStatus('192.168.0.5',80); ?></div>
+                 <div>Surveillance: <?php echo GetServerStatus('192.168.0.7',80); ?></div>
               </div>
             </div>
 

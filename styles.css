@@ -107,7 +107,7 @@ html, body {
 .demo-navigation .mdl-navigation__link .material-icons {
   font-size: 24px;
   color: rgba(255, 255, 255, 0.56);
-  margin-right: 16px;
+  margin-right: 32px;
 }
 
 .demo-content {

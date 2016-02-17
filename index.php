@@ -205,12 +205,12 @@ function formatSize( $bytes )
               </div>
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
 		 <div>Storage Server</div>
-                 <div>UnRaid: <?php echo GetServerStatus('google.com',80); ?></div>
-		 <div>Plex: <?php echo GetServerStatus('192.168.0.2',34200); ?></div>
-		 <div>PlexPy: <?php echo GetServerStatus('192.168.0.2',8181); ?></div>
+                 <div>UnRaid:      <?php echo GetServerStatus('google.com',80); ?></div>
+		 <div>Plex:        <?php echo GetServerStatus('192.168.0.2',34200); ?></div>
+		 <div>PlexPy:      <?php echo GetServerStatus('192.168.0.2',8181); ?></div>
 		 <div>SeedBox</div>
-                 <div>Deluge: <?php echo GetServerStatus('192.168.0.3',8112); ?></div>
-		 <div>Sonarr: <?php echo GetServerStatus('192.168.0.3',8989); ?></div>
+                 <div>Deluge:      <?php echo GetServerStatus('192.168.0.3',8112); ?></div>
+		 <div>Sonarr:      <?php echo GetServerStatus('192.168.0.3',8989); ?></div>
 		 <div>CouchPotato: <?php echo GetServerStatus('192.168.0.3',5050); ?></div>
               </div>
             </div>
@@ -221,10 +221,11 @@ function formatSize( $bytes )
               </div>
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
 		 <div>Network</div>
-                 <div>Router: <?php echo GetServerStatus('192.168.0.1',80); ?></div>
-		 <div>Wireless AP: <?php echo GetServerStatus('192.168.0.100',80); ?></div>
+                 <div>Router:       <?php echo GetServerStatus('192.168.0.1',80); ?></div>
+		 <div>Wireless AP:  <?php echo GetServerStatus('192.168.0.100',80); ?></div>
 		 <div>Appliances</div>
-                 <div>Printer: <?php echo GetServerStatus('192.168.0.5',80); ?></div>
+                 <div>Printer:      <?php echo GetServerStatus('192.168.0.5',80); ?></div>
+                 <div>Surveillance: <?php echo GetServerStatus('192.168.0.7',80); ?></div>
               </div>
             </div>
 
