@@ -163,9 +163,10 @@ function formatSize( $bytes )
         <header class="demo-drawer-header">
           <img src="images/user.jpg" class="demo-avatar">
 	<div class="demo-avatar-dropdown">
-            <span>HomeLab</span></div>
+            <span>HomeLab</span>
             <div class="mdl-layout-spacer"></div>
           </div>
+	  </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-700">
           <a class="mdl-navigation__link" href="http://192.168.0.2"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">storage</i>Unraid</a>
