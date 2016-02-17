@@ -154,12 +154,12 @@ function formatSize( $bytes )
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-            <a class="mdl-navigation__link" href="about.me/xxxx"><li class="mdl-menu__item">About</li>
+            <a class="mdl-navigation__link" href="http://about.me/xxxx"><li class="mdl-menu__item">About</li>
             <a class="mdl-navigation__link" href="mailto:xxxx@xxxx.com"><li class="mdl-menu__item">Contact</li>
           </ul>
         </div>
       </header>
-      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
           <img src="images/user.jpg" class="demo-avatar">
           <div class="Resorce Links">
@@ -167,7 +167,7 @@ function formatSize( $bytes )
             <div class="mdl-layout-spacer"></div>
           </div>
         </header>
-        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+        <nav class="demo-navigation mdl-navigation mdl-color--blue-800">
           <a class="mdl-navigation__link" href="http://192.168.0.2"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">storage</i>Unraid</a>
           <a class="mdl-navigation__link" href="http://192.168.0.2:32400/web/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">play_circle_filled</i>Plex</a>
           <a class="mdl-navigation__link" href="http://192.168.0.2:8181"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">visibility</i>PlexPy</a>

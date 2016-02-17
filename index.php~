@@ -154,12 +154,12 @@ function formatSize( $bytes )
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-            <a class="mdl-navigation__link" href=""><li class="mdl-menu__item">About</li>
+            <a class="mdl-navigation__link" href="http://about.me/xxxx"><li class="mdl-menu__item">About</li>
             <a class="mdl-navigation__link" href="mailto:xxxx@xxxx.com"><li class="mdl-menu__item">Contact</li>
           </ul>
         </div>
       </header>
-      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+      <div class="demo-drawer mdl-layout__drawer mdl-color--red-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
           <img src="images/user.jpg" class="demo-avatar">
           <div class="Resorce Links">
