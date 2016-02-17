@@ -150,8 +150,6 @@ function formatSize( $bytes )
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">HomeLab Dashboard</span>
           <div class="mdl-layout-spacer"></div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
-          </div>
           <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
             <i class="material-icons">more_vert</i>
           </button>
