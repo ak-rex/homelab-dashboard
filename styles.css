@@ -114,24 +114,7 @@ html, body {
   max-width: 1080px;
 }
 
-.demo-charts {
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-              -ms-grid-row-align: center;
-          align-items: center;
-}
-.demo-chart:nth-child(1) {
-  color: #ACEC00;
-}
-.demo-chart:nth-child(2) {
-  color: #00BBD6;
-}
-.demo-chart:nth-child(3) {
-  color: #BA65C9;
-}
-.demo-chart:nth-child(4) {
-  color: #EF3C79;
-}
+
 .demo-graphs {
   padding: 16px 32px;
   display: -webkit-flex;
@@ -179,6 +162,7 @@ _:-ms-input-placeholder, :root .demo-graph {
   font-size: 24px;
   font-weight: 400;
 }
+
 .demo-cards ul {
   padding: 0;
 }
@@ -186,7 +170,7 @@ _:-ms-input-placeholder, :root .demo-graph {
   font-size: 1em;
 }
 .demo-updates .mdl-card__title {
-  min-height: 200px;
+  min-height: 155px;
   background-image: url('images/dog.png');
   background-position: 90% 100%;
   background-repeat: no-repeat;
