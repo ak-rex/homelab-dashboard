@@ -118,20 +118,20 @@ function formatSize( $bytes )
 }
 
 .progress {
-        border: 2px solid #5E96E4;
+        border: 2px solid #00b9d8;
         height: 32px;
         width: 100%;
         margin: 30px auto;
 }
 .progress .prgbar {
-        background: #A7C6FF;
+        background: ##0cdcff;
         width: <?php echo $dp; ?>%;
         position: relative;
         height: 32px;
         z-index: 999;
 }
 .progress .prgtext {
-        color: #286692;
+        color: #000000;
         text-align: center;
         font-size: 13px;
         padding: 9px 0 0;
@@ -181,11 +181,8 @@ function formatSize( $bytes )
       <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
           <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-		<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                Storage Array.
-              </div>
             <div class='progress'>
-      		  <div class='prgtext'><?php echo $dp; ?>% Disk Used</div>
+      		  <div class='prgtext'><?php echo $dp; ?>% Of Storage Array Used</div>
       		  <div class='prgbar'></div>
       		  <div class='prginfo'>
                 <span style='float: left;'><?php echo "$du Used - $df Free - $dt Total"; ?></span>
