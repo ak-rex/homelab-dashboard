@@ -164,7 +164,6 @@ function formatSize( $bytes )
           <img src="images/user.jpg" class="demo-avatar">
 	<div class="demo-avatar-dropdown">
             <span>HomeLab</span>
-            <div class="mdl-layout-spacer"></div>
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-700">
