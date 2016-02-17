@@ -131,7 +131,7 @@ function formatSize( $bytes )
         z-index: 999;
 }
 .progress .prgtext {
-        color: #f5f5f5;
+        color: #888888;
         text-align: center;
         font-size: 13px;
         padding: 9px 0 0;
@@ -188,8 +188,9 @@ function formatSize( $bytes )
                 <span style='float: left;'><?php echo "$du Used - $df Free - $dt Total"; ?></span>
                 <span style='clear: both;'></span>
 	</div>
-	</div>
+	  </div>
           </div>
+	</div>
           <div class="demo-graphs mdl-shadow--8dp mdl-color--white mdl-cell mdl-cell--8-col">
             <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
               <use xlink:href="#chart" />
