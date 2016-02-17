@@ -191,7 +191,7 @@ _:-ms-input-placeholder, :root .demo-graph {
   background-position: 90% 100%;
   background-repeat: no-repeat;
 }
-.demo-updates2 .mdl-card__title {
+.demo-updates2 .mdl-card__title2 {
   min-height: 200px;
   background-image: url('images/dog.png');
   background-position: 90% 100%;
