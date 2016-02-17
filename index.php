@@ -217,6 +217,23 @@ function formatSize( $bytes )
 
               </div>
             </div>
+ <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+              <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
+                <h2 class="mdl-card__title-text">Services</h2>
+              </div>
+              <div class="mdl-card__supporting-text mdl-color-text--grey-600">
+		 <div>Storage Server</div>
+                 <div>UnRaid: <?php echo GetServerStatus('google.com',80); ?></div>
+		 <div>Plex: <?php echo GetServerStatus('192.168.0.2',34200); ?></div>
+		 <div>PlexPy: <?php echo GetServerStatus('192.168.0.2',8181); ?></div>
+		 <div>SeedBox</div>
+                 <div>Deluge: <?php echo GetServerStatus('192.168.0.3',8112); ?></div>
+		 <div>Sonarr: <?php echo GetServerStatus('192.168.0.3',8989); ?></div>
+		 <div>CouchPotato: <?php echo GetServerStatus('192.168.0.3',5050); ?></div>
+
+              </div>
+            </div>
             <div class="demo-separator mdl-cell--1-col"></div>
             <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
               <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
