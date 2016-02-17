@@ -154,8 +154,8 @@ function formatSize( $bytes )
             <i class="material-icons">more_vert</i>
           </button>
           <ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
-            <a class="mdl-navigation__link" href=""><li class="mdl-menu__item">About</li>
-            <a class="mdl-navigation__link" href=""><li class="mdl-menu__item">Contact</li>
+            <a class="mdl-navigation__link" href="about.me/xxxx"><li class="mdl-menu__item">About</li>
+            <a class="mdl-navigation__link" href="mailto:xxxx@xxxx.com"><li class="mdl-menu__item">Contact</li>
           </ul>
         </div>
       </header>
@@ -205,7 +205,7 @@ function formatSize( $bytes )
               </div>
               <div class="mdl-card__supporting-text mdl-color-text--grey-600">
 		 <div>Storage Server</div>
-                 <div>UnRaid:		<?php echo GetServerStatus('google.com',80); ?></div>
+                 <div>UnRaid:		<?php echo GetServerStatus('192.168.0.2',80); ?></div>
 		 <div>Plex:		<?php echo GetServerStatus('192.168.0.2',34200); ?></div>
 		 <div>PlexPy:		<?php echo GetServerStatus('192.168.0.2',8181); ?></div>
 		 <div>SeedBox</div>
