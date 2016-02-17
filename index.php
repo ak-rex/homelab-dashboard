@@ -118,7 +118,7 @@ function formatSize( $bytes )
 }
 
 .progress {
-        border: 2px solid #00b9d8;
+        border: 2px solid #0cdcff;
         height: 32px;
         width: 100%;
         margin: 30px auto;
@@ -131,7 +131,7 @@ function formatSize( $bytes )
         z-index: 999;
 }
 .progress .prgtext {
-        color: #000000;
+        color: #f5f5f5;
         text-align: center;
         font-size: 13px;
         padding: 9px 0 0;
@@ -164,6 +164,7 @@ function formatSize( $bytes )
           <img src="images/user.jpg" class="demo-avatar">
 	<div class="demo-avatar-dropdown">
             <span>HomeLab</span>
+            <div class="mdl-layout-spacer"></div>
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-700">
