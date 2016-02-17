@@ -200,8 +200,8 @@ function formatSize( $bytes )
               <use xlink:href="#chart" />
             </svg>
           </div>
-          <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--9-col-tablet mdl-grid mdl-grid--no-spacing">
-            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+          <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
+            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
               <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
                 <h2 class="mdl-card__title-text">Services</h2>
               </div>
@@ -217,7 +217,7 @@ function formatSize( $bytes )
               </div>
             </div>
             <div class="demo-separator mdl-cell--1-col"></div>
-            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
               <div class="mdl-card__title mdl-card--expand mdl-color--deep-purple-500">
                 <h2 class="mdl-card__title-text">Equipment</h2>
               </div>
