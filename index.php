@@ -186,9 +186,8 @@ function formatSize( $bytes )
       		  <div class='prgbar'></div>
       		  <div class='prginfo'>
 		<div class="mdl-card__supporting-text mdl-color-text--grey-600">
-                <span style='float: left;'><?php echo "$du Used - $df Free - $dt Total"; ?></span>
+		<?php echo "$du Used - $df Free - $dt Total"; ?></div>
                 <span style='clear: both;'></span>
-	</div>
 	</div>
 	</div>
 	</div>
