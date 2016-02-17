@@ -181,6 +181,7 @@ function formatSize( $bytes )
       <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
           <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+		<span style='float: center;'>Storage Array</span>
             <div class='progress'>
       		  <div class='prgtext'><?php echo $dp; ?>% Disk Used</div>
       		  <div class='prgbar'></div>
