@@ -163,7 +163,9 @@ function formatSize( $bytes )
         <header class="demo-drawer-header">
           <img src="images/user.jpg" class="demo-avatar">
 	<div class="demo-avatar-dropdown">
-            <span>HomeLab</span>
+	<div class="mdl-card__supporting-text mdl-color-text--white">
+            HomeLab
+	</div>
             <div class="mdl-layout-spacer"></div>
           </div>
         </header>
@@ -182,7 +184,8 @@ function formatSize( $bytes )
         <div class="mdl-grid demo-content">
           <div class="demo-charts mdl-color--white mdl-shadow--8dp mdl-cell mdl-cell--12-col mdl-grid">
             <div class='progress'>
-      		  <div class='prgtext'><?php echo $dp; ?>% Of Storage Array Used</div>
+      		  <div class='prgtext'><?php echo $dp; ?>% Of Storage Array Used
+		</div>
       		  <div class='prgbar'></div>
       		  <div class='prginfo'>
 		<div class="mdl-card__supporting-text mdl-color-text--grey-600">
