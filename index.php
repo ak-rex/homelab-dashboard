@@ -181,6 +181,8 @@ function formatSize( $bytes )
       <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
           <div class="demo-charts mdl-color--white mdl-shadow--8dp mdl-cell mdl-cell--12-col mdl-grid">
+		<div class="mdl-card__supporting-text mdl-color-text--grey-600">
+		 <div>Storage Server</div>
             <div class='progress'>
       		  <div class='prgtext'><?php echo $dp; ?>% Of Storage Array Used</div>
       		  <div class='prgbar'></div>
@@ -188,8 +190,7 @@ function formatSize( $bytes )
                 <span style='float: left;'><?php echo "$du Used - $df Free - $dt Total"; ?></span>
                 <span style='clear: both;'></span>
 	</div>
-	  </div>
-          </div>
+	</div>
 	</div>
           <div class="demo-graphs mdl-shadow--8dp mdl-color--white mdl-cell mdl-cell--8-col">
             <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
