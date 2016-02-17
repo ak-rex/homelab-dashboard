@@ -161,9 +161,8 @@ function formatSize( $bytes )
       </header>
       <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-	<div class="demo-avatar-dropdown">
           <img src="images/user.jpg" class="demo-avatar">
-          <div class="Resorce Links">
+	<div class="demo-avatar-dropdown">
             <span>HomeLab</span>
             <div class="mdl-layout-spacer"></div>
           </div>
