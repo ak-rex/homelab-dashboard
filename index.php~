@@ -124,7 +124,7 @@ function formatSize( $bytes )
         margin: 30px auto;
 }
 .progress .prgbar {
-        background: #A7C6FF;
+        background: ##0cdcff;
         width: <?php echo $dp; ?>%;
         position: relative;
         height: 32px;
