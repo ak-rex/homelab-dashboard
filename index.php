@@ -159,7 +159,7 @@ function formatSize( $bytes )
           </ul>
         </div>
       </header>
-      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-700 mdl-color-text--blue-grey-50">
+      <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--white">
         <header class="demo-drawer-header">
           <img src="images/user.jpg" class="demo-avatar">
           <div class="Resorce Links">
@@ -167,20 +167,20 @@ function formatSize( $bytes )
             <div class="mdl-layout-spacer"></div>
           </div>
         </header>
-        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-600">
-          <a class="mdl-navigation__link" href="http://192.168.0.2"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">storage</i>Unraid</a>
-          <a class="mdl-navigation__link" href="http://192.168.0.2:32400/web/index.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">play_circle_filled</i>Plex</a>
-          <a class="mdl-navigation__link" href="http://192.168.0.2:8181"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">visibility</i>PlexPy</a>
-          <a class="mdl-navigation__link" href="http://192.168.0.3:8112"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">swap_vertical_circle</i>Deluge</a>
-          <a class="mdl-navigation__link" href="http://192.168.0.3:5050"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">weekend</i>CouchPotato</a>
-          <a class="mdl-navigation__link" href="http://192.168.0.3:8989"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">fiber_dvr</i>Sonarr</a>
+        <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-700">
+          <a class="mdl-navigation__link" href="http://192.168.0.2"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">storage</i>Unraid</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.2:32400/web/index.html"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">play_circle_filled</i>Plex</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.2:8181"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">visibility</i>PlexPy</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.3:8112"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">swap_vertical_circle</i>Deluge</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.3:5050"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">weekend</i>CouchPotato</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.3:8989"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">fiber_dvr</i>Sonarr</a>
           <div class="mdl-layout-spacer"></div>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
         </nav>
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
-          <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
+          <div class="demo-charts mdl-color--white mdl-shadow--8dp mdl-cell mdl-cell--12-col mdl-grid">
             <div class='progress'>
       		  <div class='prgtext'><?php echo $dp; ?>% Of Storage Array Used</div>
       		  <div class='prgbar'></div>
@@ -190,7 +190,7 @@ function formatSize( $bytes )
 	</div>
 	</div>
           </div>
-          <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
+          <div class="demo-graphs mdl-shadow--8dp mdl-color--white mdl-cell mdl-cell--8-col">
             <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
               <use xlink:href="#chart" />
             </svg>
@@ -199,7 +199,7 @@ function formatSize( $bytes )
             </svg>
           </div>
           <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-            <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
+            <div class="demo-updates mdl-card mdl-shadow--8dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
               <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
                 <h2 class="mdl-card__title-text">Services</h2>
               </div>
