@@ -166,7 +166,6 @@ function formatSize( $bytes )
             <span>HomeLab</span>
             <div class="mdl-layout-spacer"></div>
           </div>
-	  </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--blue-grey-700">
           <a class="mdl-navigation__link" href="http://192.168.0.2"><i class="mdl-color-text--blue-grey-200 material-icons" role="presentation">storage</i>Unraid</a>
