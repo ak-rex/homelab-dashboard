@@ -241,7 +241,7 @@ function formatSize( $bytes )
         </div>
       </main>
     </div>
-      <a href="http://admin:1960@192.168.0.7/PSIA/Streaming/channels/201/picture" target="_blank" id="view-source" class="mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"><i class="material-icons">add</i></a>
+      <a href="http://xxxx:xxxx@192.168.0.7/PSIA/Streaming/channels/201/picture" target="_blank" id="view-source" class="mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored mdl-color-text--white"><i class="material-icons">add</i></a>
     <script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
   </body>
 </html>
