@@ -18,8 +18,8 @@ html, body {
   font-family: 'Roboto', 'Helvetica', sans-serif;
 }
 .demo-avatar {
-  width: 48px;
-  height: 48px;
+  width: 55px;
+  height: 55px;
   border-radius: 24px;
 }
 .demo-layout .demo-header .mdl-textfield {
@@ -65,22 +65,12 @@ html, body {
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  padding: 16px;
-  height: 151px;
+  padding-left: 16px;
+  padding-top: 45px;
+  height: 145px;
+  background-image: url('images/redlight.png');
 }
-.demo-avatar-dropdown {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-}
+
 
 .demo-navigation {
   -webkit-flex-grow: 1;
@@ -97,12 +87,12 @@ html, body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  color: rgba(255, 255, 255, 0.56);
+  color: rgba(0, 0, 0, 1.0);
   font-weight: 500;
 }
 .demo-layout .demo-navigation .mdl-navigation__link:hover {
-  background-color: #00BCD4;
-  color: #37474F;
+  background-color: #2e7d32;
+  color: #000000;
 }
 .demo-navigation .mdl-navigation__link .material-icons {
   font-size: 24px;
@@ -115,35 +105,6 @@ html, body {
 }
 
 
-.demo-graphs {
-  padding: 16px 32px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-}
-/* TODO: Find a proper solution to have the graphs
- * not float around outside their container in IE10/11.
- * Using a browserhacks.com solution for now.
- */
-_:-ms-input-placeholder, :root .demo-graphs {
-  min-height: 664px;
-}
-_:-ms-input-placeholder, :root .demo-graph {
-  max-height: 300px;
-}
-/* TODO end */
-.demo-graph:nth-child(1) {
-  color: #00b9d8;
-}
-.demo-graph:nth-child(2) {
-  color: #d9006e;
-}
 
 .demo-cards {
   -webkit-align-items: flex-start;
@@ -171,7 +132,7 @@ _:-ms-input-placeholder, :root .demo-graph {
 }
 .demo-updates .mdl-card__title {
   min-height: 155px;
-  background-image: url('images/dog.png');
+  background-image: url('images/server-rack.png');
   background-position: 90% 100%;
   background-repeat: no-repeat;
 }
@@ -180,29 +141,3 @@ _:-ms-input-placeholder, :root .demo-graph {
   text-decoration: none;
 }
 
-.demo-options h3 {
-  margin: 0;
-}
-.demo-options .mdl-checkbox__box-outline {
-  border-color: rgba(255, 255, 255, 0.89);
-}
-.demo-options ul {
-  margin: 0;
-  list-style-type: none;
-}
-.demo-options li {
-  margin: 4px 0;
-}
-.demo-options .material-icons {
-  color: rgba(255, 255, 255, 0.89);
-}
-.demo-options .mdl-card__actions {
-  height: 64px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  box-sizing: border-box;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
