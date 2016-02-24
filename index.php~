@@ -177,7 +177,7 @@ function formatSize( $bytes )
           <a class="mdl-navigation__link" href="http://192.168.0.3:8112" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">swap_vertical_circle</i>Deluge</a>
           <a class="mdl-navigation__link" href="http://192.168.0.3:8989" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">fiber_dvr</i>Sonarr</a>
           <a class="mdl-navigation__link" href="http://192.168.0.3:5050" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">weekend</i>CouchPotato</a>
-          <a class="mdl-navigation__link" href="https://192.168.0.3:10000" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">settings</i>Webmin</a>
+          <a class="mdl-navigation__link" href="http://192.168.0.3:10000" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">settings</i>Webmin</a>
           <div class="mdl-layout-spacer"></div>
           <a class="mdl-navigation__link" href="https://github.com/ak-rex/Dashboard" target="_blank"><i class="mdl-color-text--black material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
         </nav>
